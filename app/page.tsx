@@ -16,7 +16,6 @@ import {
   Bookmark,
   CheckCircle2,
   Lock,
-  Building2,
   Clock,
   Sparkles,
   Filter
@@ -208,7 +207,7 @@ export default function SecLearningHub() {
 
   return (
     <div className="min-h-screen bg-[#090d16] text-slate-100 flex flex-col font-sans selection:bg-teal-600 selection:text-white">
-      {/* Institutional Top Navbar */}
+      {/* Standalone Tech Navbar */}
       <header className="sticky top-0 z-50 border-b border-slate-800 bg-[#0f172a]/95 backdrop-blur-md px-6 py-4 flex items-center justify-between shadow-xl">
         <div className="flex items-center gap-3.5">
           <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-teal-600 shadow-[0_0_20px_rgba(13,148,136,0.4)] text-white">
@@ -216,12 +215,12 @@ export default function SecLearningHub() {
           </div>
           <div>
             <div className="flex items-center gap-2">
-              <h1 className="font-bold text-base md:text-lg tracking-tight text-white">CIMC SEC-LAB LEARNING HUB</h1>
+              <h1 className="font-bold text-base md:text-lg tracking-tight text-white">SEC-REPO CENTRAL</h1>
               <span className="px-2.5 py-0.5 rounded text-[10px] font-mono bg-teal-500/10 text-teal-400 border border-teal-500/20">
-                CENTRALIZED REPO DASHBOARD
+                SECURITY LEARNING HUB
               </span>
             </div>
-            <p className="text-[11px] text-teal-400 font-medium tracking-wide">SALVERE OMNIBUS – SECURITY & RESEARCH REPOSITORY</p>
+            <p className="text-[11px] text-slate-400 font-medium tracking-wide">OFFENSIVE & DEFENSIVE REPOSITORY DASHBOARD</p>
           </div>
         </div>
 
@@ -377,11 +376,10 @@ export default function SecLearningHub() {
         )}
       </div>
 
-      {/* Institutional Footer */}
+      {/* Standalone Footer */}
       <footer className="border-t border-slate-800 bg-[#0f172a] py-6 px-6 text-center text-xs text-slate-500 space-y-2 mt-auto">
-        <p className="font-bold text-slate-300">CITY OF ILAGAN MEDICAL CENTER - SEC-LAB HUB</p>
-        <p className="text-teal-400 font-medium">SALVERE OMNIBUS – GOOD HEALTH FOR ALL ILAGUEÑOS</p>
-        <p className="text-[11px] text-slate-600">Enterprise Security Research Portal v1.0</p>
+        <p className="font-bold text-slate-300">SEC-REPO CENTRAL — SECURITY RESEARCH HUB</p>
+        <p className="text-[11px] text-slate-600">Centralized GitHub Tools & Learning Dashboard v1.0</p>
       </footer>
     </div>
   );
